@@ -3,6 +3,14 @@ Possible solution for the starve free Reader-Writer problem
 
 ## Starve Free Solution
 
+A classical Reader Writer problem is a situation where multiple processes can access and modify a
+shared ﬁle or data structure concurrently. In such a situation in order to avoid the race condition
+only one writer should be allowed to access the critical section in any point of time and also when no
+writer is active any number of reader can access the critical section. So to solve this synchronization
+problem Binary Semaphores are used to lock and release the processes.
+
+
+
 
 
 
